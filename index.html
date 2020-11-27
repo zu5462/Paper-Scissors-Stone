@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Paper,Scissors,and Stone!</title>
+  </head>
+  <body>
+    <main>
+      <section class="player player--0 player--active">
+        <h2 class="name" id="name--0">Player</h2>
+        <p class="thrown" id="thrown--0">👊</p>
+      </section>
+      <section class="player player--1">
+        <h2 class="name" id="name--1">Computer</h2>
+        <p class="thrown" id="thrown--1">👊</p>
+      </section>
+      <div class="state">
+        <p class="state-label">Score</p>
+        <p class="state-score">0 - 0</p>
+      </div>
+      <div class="btn-position">
+        <button class="btn btn-scissors">✌️</button>
+        <button class="btn btn-stone">👊</button>
+        <button class="btn btn-paper">🖐</button>
+      </div>
+      <button class="btn btn-reset hidden">Reset</button>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
